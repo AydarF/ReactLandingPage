@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'ract-dom';
+import ReactDOM from 'react-dom';
 import { Container, Row, Col } from 'react-grid-system';
 
 class SlackChannel extends React.Component {

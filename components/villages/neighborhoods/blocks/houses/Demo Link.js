@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 class DemoLink extends React.Component {
   render() {
     return(
-      <dv>
+      <div>
         <a href="#">
           <span className="demo-link">Demo</span>
         </a>

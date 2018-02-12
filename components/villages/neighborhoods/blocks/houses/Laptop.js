@@ -7,7 +7,7 @@ class Laptop extends React.Component {
     return(
       <Col lg={6}>
         <img  className="laptop" src="./images/Laptop.svg" />
-      </div>
+      </Col>
     )
   }
 }

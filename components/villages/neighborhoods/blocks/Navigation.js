@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Component, Row, Col } from 'react-grid-system';
-import CallToAction from './components/villages/neighborhoods/blocks/houses/Branding.js';
-import CallToAction from './components/villages/neighborhoods/blocks/houses/Demo Link.js'; 
+import Branding from './houses/Branding.js';
+import DemoLink from './houses/Demo Link.js';
 
 class Navigation extends React.Component {
   render() {
