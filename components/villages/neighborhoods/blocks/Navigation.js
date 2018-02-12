@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Component, Row, Col } from 'react-grid-system';
+import CallToAction from './components/villages/neighborhoods/blocks/houses/Branding.js';
+import CallToAction from './components/villages/neighborhoods/blocks/houses/Demo Link.js'; 
 
 class Navigation extends React.Component {
   render() {
@@ -10,7 +12,7 @@ class Navigation extends React.Component {
           <Branding />
         </Col>
         <Col lg={6}>
-          <Demolink />
+          <DemoLink />
         </Col>
       </div>
     )
