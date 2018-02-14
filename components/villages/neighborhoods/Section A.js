@@ -8,7 +8,7 @@ import Laptop from './blocks/houses/Laptop.js';
 class SectionA extends React.Component {
   render() {
     return (
-      <section>
+      <section className="section-a">
         <Container>
           <Row>
             <SectionDescription />
