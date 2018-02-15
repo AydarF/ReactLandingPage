@@ -15,7 +15,7 @@ class Header extends React.Component {
             <Navigation />
           </Row>
           <Row>
-            <CallToAction />
+            <CallToAction title={this.props.title} subtitle={this.props.subtitle}/>
           </Row>
           <Row>
             <SlackChannel />
