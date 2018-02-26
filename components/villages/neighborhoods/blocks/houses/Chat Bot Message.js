@@ -52,6 +52,7 @@ class ChatBotMessage extends React.Component {
         message: values[2],
         article: values[3]
       })
+      console.log(values);
     });
 
   }

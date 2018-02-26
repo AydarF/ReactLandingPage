@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import * as firebase from "firebase";
 
-const FirebaseConfig = {
+const config = {
     apiKey: "AIzaSyBK6r1xSD4m6gA8p9UwyInbxKsm8-2fjqY",
     authDomain: "chat-bot-demo-b3256.firebaseapp.com",
     databaseURL: "https://chat-bot-demo-b3256.firebaseio.com",
