@@ -7,11 +7,20 @@ import ChatBotMessage from './houses/Chat Bot Message.js';
 
 class SlackChannel extends React.Component {
   render() {
+    const messages = this.props.messages;
     return(
       <Col lg={12}>
         <img className="slack-channel" src="./images/SlackChannel.svg"/>
-        <UserMessage/>
-        <ChatBotMessage/>
+          { messages ? (
+            //render messages is true (demo)
+            <div>
+              <UserMessage/>
+              <ChatBotMessage/>
+            </div>
+          ) : (
+          // render nothing - messages is false (landing page)
+          <div></div>
+         )}
       </Col>
     )
   }
